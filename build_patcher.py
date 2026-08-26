@@ -36,7 +36,7 @@ REL = [
 ]
 
 EXPECT_ORIG = {r'TangyTD.exe': 4357632, r'game.dll': 6387200}
-EXPECT_PATCHED = {r'TangyTD.exe': 19040768, r'game.dll': 6415360}
+EXPECT_PATCHED = {r'TangyTD.exe': 19041792, r'game.dll': 6443008}
 
 
 def cs_str(s):
