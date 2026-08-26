@@ -1,0 +1,5 @@
+# 游戏二进制不入库（版权原因，见 payload/README.md）
+payload/patch/
+payload/original/
+build/
+dist/
