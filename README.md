@@ -29,7 +29,7 @@ Steam 版 Tangy TD（v1.0.393）简体 + 繁体中文补丁的单文件安装/�
 python build_patcher.py
 ```
 
-产物（文件名带版本号）：
+产物（文件名带版本号；工具文件名保留「简体中文补丁」字样，实际内嵌简繁双语言补丁数据）：
 - `dist/TangyTD_简体中文补丁_v1.0.393.exe` —— 补丁工具（GUI：安装/卸载两个按钮；
   另支持命令行 `/<install|uninstall> [/dir=路径]`，成功 rc=0，失败 rc=2）
 - `dist/TangyTD_简体中文补丁_v1.0.393.zip` —— 分发包（exe + 使用说明 + 字体 OFL 授权）

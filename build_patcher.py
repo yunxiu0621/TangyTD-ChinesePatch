@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Tangy TD 简体中文补丁工具构建脚本（项目自包含）
+Tangy TD 简繁中文补丁工具构建脚本（项目自包含）
 - payload 位于 ./payload/{patch,original}（各 11 个文件，尺寸断言）
 - 22 个文件 zlib(raw deflate) 压缩后内嵌为资源，系统自带 csc 编译 src/Patcher.cs + 生成的 build/Manifest.cs
 - 输出：dist/TangyTD_简体中文补丁_v{版本}.exe（文件名带版本号）

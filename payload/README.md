@@ -1,16 +1,19 @@
 # payload 目录说明
 
 本仓库出于版权考虑**不包含任何游戏文件**。构建前需自行准备以下 22 个文件，
-放置到对应子目录（相对路径须完全一致）：
+放置到对应子目录（相对路径须完全一致）。
+
+补丁为**简繁双语言**：`game.dll` 内嵌简体（德语槽）+ 繁体（西班牙语槽）
+两套译文，`TangyTD.exe` 的字符集节的简繁合集（1,273 字）。
 
 ## payload/patch/ —— 11 个补丁文件
 
 | 文件 | 说明 |
 |---|---|
 | `TangyTD.exe` | 打过补丁的游戏主程序（含中文字符集节） |
-| `game.dll` | 打过补丁的游戏逻辑库（含中文文本节） |
+| `game.dll` | 打过补丁的游戏逻辑库（含简繁中文文本节） |
 | `credits.txt` | 中文制作人员名单 |
-| `assets/fonts/alagard.ttf`<br>`assets/fonts/NameHereCondensed.ttf`<br>`assets/fonts/CelticTime.ttf`<br>`assets/fonts/AKDPixel.ttf`<br>`assets/fonts/PixeloidMono.ttf`<br>`assets/fonts/TinyUnicode.ttf` | 合并了 Fusion Pixel 中文字形的 6 个 UI 字体 |
+| `assets/fonts/alagard.ttf`<br>`assets/fonts/NameHereCondensed.ttf`<br>`assets/fonts/CelticTime.ttf`<br>`assets/fonts/AKDPixel.ttf`<br>`assets/fonts/PixeloidMono.ttf`<br>`assets/fonts/TinyUnicode.ttf` | 合并了 Fusion Pixel 简繁中文字形（zh_hans/zh_hant）的 6 个 UI 字体 |
 | `assets/shaders/dx/gpu.hlsl` | 字形图集扩容 512→1024 后的着色器源码 |
 | `assets/shaders/dx/compiled/gpu.ps` | 同上的编译后像素着色器 |
 
@@ -24,6 +27,6 @@
 `build_patcher.py` 内置以下尺寸断言（v1.0.393）：
 
 - 官方原版：`TangyTD.exe` = 4,357,632 B，`game.dll` = 6,387,200 B
-- 补丁版本：`TangyTD.exe` = 19,040,768 B，`game.dll` = 6,415,360 B
+- 补丁版本：`TangyTD.exe` = 19,041,792 B，`game.dll` = 6,443,008 B
 
 尺寸不符会拒绝构建，防止版本错配。
