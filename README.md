@@ -6,6 +6,13 @@ Steam 版 Tangy TD（v1.0.393）简体中文补丁的单文件安装/卸载工�
 补丁数据（11 个补丁文件 + 11 个官方原版文件）以 deflate 压缩内嵌在 exe 中，
 无需安装流程，游戏目录自动探测（本程序所在目录 → 注册表 Steam 库 → 盘符简单搜索）。
 
+## 截图
+
+|  |  |
+|---|---|
+| ![游戏截图 1](docs/screenshots/screenshot1.jpg) | ![游戏截图 2](docs/screenshots/screenshot2.jpg) |
+| ![游戏截图 3](docs/screenshots/screenshot3.jpg) | ![游戏截图 4](docs/screenshots/screenshot4.jpg) |
+
 ## 获取补丁数据
 
 出于版权考虑，本仓库**不包含任何游戏文件**（`payload/`、`build/`、`dist/` 均不入库，
